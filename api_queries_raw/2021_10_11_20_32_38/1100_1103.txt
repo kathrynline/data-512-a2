@@ -1,0 +1,1 @@
+{"enwiki": {"models": {"articlequality": {"version": "0.8.2"}}, "scores": {"807484325": {"articlequality": {"error": {"message": "RevisionNotFound: Could not find revision ({revision}:807484325)", "type": "RevisionNotFound"}}}}}}
