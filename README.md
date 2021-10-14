@@ -16,7 +16,7 @@ Contains cleaned data used for analysis.
 2. population.csv: Contains the cleaned WPDS 2020 data. 
 3. unable_to_score_pages.csv: Contains the pages from the Politicians by Country dataset that could not be assigned a score by the ORES model.
 4. wp_wpds_politicians_by_country.csv: Contains the results from the merged population and politicians datasets. Only rows that matched on 'country' value and were able to be scored by the ORES model were kept in this dataset. 
-5. regions_to_countries_map.csv
+5. regions_to_countries_map.csv: Contains a map of countries to regions, created from the 'population.csv' dataset. 
 6. politicians.csv: Contains the cleaned Politicians by Country data. Some pages were dropped from the raw dataset; please see 'hcds-a2-bias.ipynb' for notes. 
 7. wp_wpds_countries-no_match.csv: Contains the results from the merged population and politicians datasets that were unable to be matched with a score through the ORES model. 
 
